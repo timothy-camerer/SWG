@@ -1,0 +1,9 @@
+ul {
+    font-weight: bold;
+}
+th {
+    color: white; text-decoration: underline; font-weight: bold;
+}
+.time {
+    font-style: italic
+}
