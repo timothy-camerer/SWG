@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Contact Us</title>
+    <link href=restaurantStyles.css
+    rel="stylesheet"
+    type="text/css" />
+    <style>
+        label {
+            font-weight: bold; color: blue; margin: 5pt; 
+        }
+    </style>
+</head>
+<header>
+    <center><br>
+    <h1>Cardiac Arrest Cafe</h1>
+    <hr>
+    </center>
+    &nbsp;&nbsp;<a href="cacHome.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="cacMenu.html">Menu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="cacContactUs.html">Contact Us</a><br/>
+    <hr>
+</header>
+<body>
+    <form action="contactInfo" method="POST">
+        <label>Name: </label><input type="text"/><br>
+        <label>Email: </label><input type="text"/><br>
+        <label>Phone: </label><input type="tel"/><br>
+        <label>Reason for Inquiry: </label><select>
+            <option value="catering">Catering</option>
+            <option value="privateParty">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label>Additional Information: </label><textarea></textarea><br>
+        <label>Have you been to the restaurant?</label>
+        <input type="radio" name="visted" value="No" checked="checked"/>No
+        <input type="radio" name="visted" value="Yes"/>Yes<br>
+        <label>Best days to contact you: </label>
+        <input type="checkbox" value="monday">M
+        <input type="checkbox" value="tuesday">T
+        <input type="checkbox" value="wednesday">W
+        <input type="checkbox" value="thursday">Th
+        <input type="checkbox" value="friday">F<br>
+        <center>
+            <input type="submit" value="Send Request"/>
+        </center>
+    </form>
+</body>
+<footer>
+    <center>
+    <hr>
+        <h4>54321 Gut Bomb Dr., Gassyville, MN, 55555<br><br>
+        (555)555-5555</h4><br>
+    </center>
+</footer>
+</html>
+
